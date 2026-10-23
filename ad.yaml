@@ -47,5 +47,11 @@ payload:
   - DOMAIN,sdkquic.e.qq.com
   - DOMAIN,novelapi.baidu.com
   - DOMAIN,dig.bdurl.net
+  - DOMAIN,h2tcbox.baidu.com
+  - DOMAIN,tcbox.baidu.com
+  - DOMAIN,sdk.e.qq.com
+  - DOMAIN,ipv4.gdt.qq.com
+  - DOMAIN-SUFFIX,ubixioe.com
+
 
 
