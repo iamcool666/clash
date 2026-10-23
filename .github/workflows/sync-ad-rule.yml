@@ -1,0 +1,37 @@
+name: Sync AWAvenue Ads Rule
+
+on:
+  schedule:
+    # 每 6 小时自动运行一次（每天 4 次：00:00, 06:00, 12:00, 18:00 UTC）
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # 允许在 GitHub 页面手动触发运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 赋予写权限以提交和推送更改
+
+    steps:
+      - name: 签出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 下载并重命名规则文件
+        run: |
+          curl -sSL "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml" -o classiacl.yaml
+
+      - name: 检查变更并提交推送
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 暂存 classiacl.yaml
+          git add classiacl.yaml
+          
+          # 如果文件没有变化，git diff --staged 会返回 0；有变化则进行 commit 并 push
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update classiacl.yaml from upstream"
+            git push
+          else
+            echo "No changes detected in classiacl.yaml"
+          fi
