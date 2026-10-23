@@ -1,6 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,sigmob.cn
-  # 廣告聯盟 / 第三方 SDK 域名
   - DOMAIN-SUFFIX,adwangmai.com
   - DOMAIN-SUFFIX,ubixioe.com
   - DOMAIN-SUFFIX,1rtb.net
@@ -9,13 +8,9 @@ payload:
   - DOMAIN-SUFFIX,iggrowth.cn
   - DOMAIN-SUFFIX,zhangyuidong.cn
   - DOMAIN-SUFFIX,mongac.com
-
-  # 數據追蹤 / 統計上報域名
   - DOMAIN-SUFFIX,yunxish.com
   - DOMAIN-SUFFIX,66mobi.com
   - DOMAIN-SUFFIX,aiclk.com
-
-  # 商業廣告及特定功能域名
   - DOMAIN,ad-feedback.youku.com
   - DOMAIN,integralwall.baidu.com
   - DOMAIN,afd.baidu.com
@@ -23,16 +18,12 @@ payload:
   - DOMAIN,nsclick.baidu.com
   - DOMAIN,als.baidu.com
   - DOMAIN,ecom.map.baidu.com
-
-  # 騰訊廣告 (廣點通 / GDT)
   - DOMAIN,sdk.e.qq.com
   - DOMAIN,win.gdt.qq.com
   - DOMAIN,mi.gdt.qq.com
   - DOMAIN,ipv4.gdt.qq.com
   - DOMAIN-SUFFIX,gdt.qq.com
   - DOMAIN-SUFFIX,gdtimg.com
-
-  # 廣告聯盟 / SDK / ADX 域名
   - DOMAIN-SUFFIX,vlion.cn
   - DOMAIN-SUFFIX,advlion.com
   - DOMAIN-SUFFIX,adn-plus.com.cn
@@ -40,8 +31,6 @@ payload:
   - DOMAIN-SUFFIX,ubixioe.com
   - DOMAIN-SUFFIX,1rtb.net
   - DOMAIN-SUFFIX,zhangyuidong.cn
-
-  # 數據追蹤 / SDK 上報 / AppsFlyer 歸因
   - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,66mobi.com
   - DOMAIN-SUFFIX,yunxish.com
