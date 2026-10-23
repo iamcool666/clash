@@ -34,8 +34,6 @@ payload:
   - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,66mobi.com
   - DOMAIN-SUFFIX,yunxish.com
-
-  # 字節跳動 / 穿山甲廣告 SDK、日誌與火山引擎
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,amemv.com
@@ -44,17 +42,9 @@ payload:
   - DOMAIN-SUFFIX,bytescm.com
   - DOMAIN-SUFFIX,volccdn.com
   - DOMAIN-SUFFIX,volces.com
-
-  # 盟大廣告 SDK
   - DOMAIN-SUFFIX,mentamob.com
-
-  # 樂播投屏 SDK (hppplay)
   - DOMAIN-SUFFIX,hppplay.cn
-
-  # 騰訊廣告補充
   - DOMAIN,sdkquic.e.qq.com
-
-  # 百度其他 API 與統計
   - DOMAIN,novelapi.baidu.com
   - DOMAIN,dig.bdurl.net
 
