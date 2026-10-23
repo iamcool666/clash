@@ -1,2 +1,25 @@
 payload:
   - DOMAIN-SUFFIX,sigmob.cn
+  # 廣告聯盟 / 第三方 SDK 域名
+  - DOMAIN-SUFFIX,adwangmai.com
+  - DOMAIN-SUFFIX,ubixioe.com
+  - DOMAIN-SUFFIX,1rtb.net
+  - DOMAIN-SUFFIX,qchannel03.cn
+  - DOMAIN-SUFFIX,qchannel01.cn
+  - DOMAIN-SUFFIX,iggrowth.cn
+  - DOMAIN-SUFFIX,zhangyuidong.cn
+  - DOMAIN-SUFFIX,mongac.com
+
+  # 數據追蹤 / 統計上報域名
+  - DOMAIN-SUFFIX,yunxish.com
+  - DOMAIN-SUFFIX,66mobi.com
+  - DOMAIN-SUFFIX,aiclk.com
+
+  # 商業廣告及特定功能域名
+  - DOMAIN,ad-feedback.youku.com
+  - DOMAIN,integralwall.baidu.com
+  - DOMAIN,afd.baidu.com
+  - DOMAIN,afdconf.baidu.com
+  - DOMAIN,nsclick.baidu.com
+  - DOMAIN,als.baidu.com
+  - DOMAIN,ecom.map.baidu.com
