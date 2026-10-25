@@ -251,3 +251,4 @@ payload:
   - IP-CIDR,2001:67C:4E8::/48
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-SUFFIX,tiktokv.com
