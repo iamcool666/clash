@@ -252,3 +252,4 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-SUFFIX,alisg.tiktokv.com
+  - DOMAIN-SUFFIX,fcdnstatic-intl.com
