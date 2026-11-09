@@ -1,6 +1,7 @@
 # Shadowrocket 迁移：DIRECT 规则集（含 Apple、小米、Cloudflare、umeng 等）
 payload:
   - DOMAIN-SUFFIX,l.cd
+  - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,pp.ua
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
